@@ -1,3 +1,8 @@
+"""
+Author  : Edwin Mendoza Leon
+script : main.py
+description : script with request functions.
+"""
 import requests
 
 class RequestError(Exception):
@@ -10,7 +15,7 @@ class RequestError(Exception):
     """
     def __init__(self, status_code, url, message = "Error in the request for url"):
         self.status_code = status_code
-        self.message = message + ": {}".format(url)
+        self.message = message + f": {url}"
         super().__init__(self.message)
 
 
@@ -23,5 +28,4 @@ def api_response(url) -> dict or str:
     response = requests.get(url)
     if response.status_code == 200:
         return response.json()
-    else:
-        raise RequestError(response.status_code, url)
+    return RequestError(response.status_code, url)
