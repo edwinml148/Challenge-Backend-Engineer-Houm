@@ -27,7 +27,7 @@ def get_data_pokemons_egg_gropus_raichu_name_url():
     """
     url_poke_specie = __ROOT_URL + "pokemon-species/raichu"
     egg_groups_raichu = api_response(url_poke_specie)["egg_groups"]
-    egg_groups_raichu_urls = [ egg_group['url'] for egg_group in egg_groups_raichu ]
+    egg_groups_raichu_urls = [ egg_group['url'] for egg_group in egg_groups_raichu ]  
     poke_egg_gropus_raichu_name_url = [ api_response(url)["pokemon_species"]
                                       for url in egg_groups_raichu_urls ]
 
