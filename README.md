@@ -10,9 +10,9 @@ Para el siguiente reto se utilizo ***Python 3.8.8***. Se requiere instalar la si
 
 Para ver los resultados instalaremos el proyecto en entorno local , debemos crear una carpeta de trabajo y abrir el CMD en esa ruta (Se recomienda abrir con permisos de administrador), luego usar los siguientes comandos en ese orden.
 
-    * ```python -m venv reto_houm```
-    * ```.\reto_houm\Scripts\activate```
-    * ```git init```
-    * ```git clone https://github.com/edwinml148/Challenge-Backend-Engineer-Houm.git```
-    * ```cd .\Challenge-Backend-Engineer-Houm```
-    * ```pip install -r requirements.txt```
+* ```python -m venv reto_houm```
+* ```.\reto_houm\Scripts\activate```
+* ```git init```
+* ```git clone https://github.com/edwinml148/Challenge-Backend-Engineer-Houm.git```
+* ```cd .\Challenge-Backend-Engineer-Houm```
+* ```pip install -r requirements.txt```
