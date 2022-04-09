@@ -65,3 +65,10 @@ Para los test se utilizo la libreria ***pytest***. Para correr los test , sobre 
   <img src="img/test_2.PNG">
   <br><br/>
 </div>
+
+
+## 4. Pylint:
+
+Se uso un la libreria Pylint para el analisis estatico del codigo para identificar errores en el codigo en el python. Para poder ver el porcentaje de acierto debe aplicar el siguiente comando.
+
+* ```pylint function.py```
