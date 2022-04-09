@@ -69,6 +69,19 @@ Para los test se utilizo la libreria ***pytest***. Para correr los test , sobre 
 
 ## 4. Pylint:
 
-Se uso un la libreria Pylint para el analisis estatico del codigo para identificar errores en el codigo en el python. Para poder ver el porcentaje de acierto debe aplicar el siguiente comando.
+Se uso un la libreria Pylint para el analisis estatico del codigo para identificar errores en el codigo en el python. Para poder ver el porcentaje de calificacion del codigo debe aplicar el siguiente comando. Cabe resaltar que se siguio el estilo **PEP 8**
 
 * ```pylint function.py```
+
+<div style="text-align: center;">
+  <br><br/>
+  <img src="img/pylinst-function.PNG">
+  <br><br/>
+</div>
+
+
+<div style="text-align: center;">
+  <br><br/>
+  <img src="img/pylinst-main.PNG">
+  <br><br/>
+</div>
