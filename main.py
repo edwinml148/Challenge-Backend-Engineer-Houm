@@ -25,7 +25,7 @@ except RequestError as error:
 else:
     print("\n#### Backend Challenge Houm ####\n")
     print(f"Answer 1 : There are {FIRST_ANSWER} pokemons names with 'at' and double 'a'.")
-    print(f"Answer 2 : There are {SECOND_ANSWER} pokemons that can breed with 'Raichu'.")
+    print(f"Answer 2 : There are {SECOND_ANSWER} pokemons egg_gropus 'Raichu'.")
     print(f"Answer 3 : The max and min weight of 'fighting' type pokemon are {THIRD_ANSWER}.")
 
 elapsed_time = time() - start_time
